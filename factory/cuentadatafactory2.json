@@ -1,0 +1,9 @@
+{
+	"name": "cuentadatafactory2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "faf82b6a-07b0-41bf-86ed-85d75b5b2e9c",
+		"tenantId": "fb8addd8-5fe3-40b9-ba85-e02cfd6373c0"
+	}
+}
