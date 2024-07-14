@@ -1,9 +1,9 @@
 {
-	"name": "Bronce_to_plata",
+	"name": "pipeline",
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook1",
+				"name": "Bronce_to_plata",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -14,6 +14,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/christian-ess@hotmail.com/Capa Bronce a Plata  - Proyecto Final"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks_DataFactory",
 					"type": "LinkedServiceReference"
