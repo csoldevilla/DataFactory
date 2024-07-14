@@ -1,0 +1,24 @@
+{
+	"name": "Ejecutar_Process_Proyect_Final",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute_Process_Proyect_Final",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Process_Proyect_Final",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": []
+	}
+}
